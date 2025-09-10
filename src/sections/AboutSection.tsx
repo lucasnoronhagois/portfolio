@@ -13,12 +13,14 @@ const AboutSection: React.FC = () => {
             <div className="col-lg-6 mb-4">
               <h3 className="h2 fw-semibold project-title mb-4">Quem sou eu?</h3>
               <p className="project-description mb-3">
-                Sou um desenvolvedor apaixonado por tecnologia e inovação. Entregando soluções em desenvolvimento
-                web moderno, sempre busco criar soluções eficientes e experiências digitais excepcionais.
+              Sou um desenvolvedor Full Stack movido por tecnologia, inovação e a vontade de transformar ideias em soluções reais.
+              Trabalho com foco em desenvolvimento web moderno, sempre buscando eficiência,
+              performance e uma experiência digital de alto nível.
               </p>
               <p className="project-description mb-4">
-                Com foco em React, TypeScript e outras tecnologias modernas, estou sempre
-                aprendendo e evoluindo para entregar o melhor resultado em cada projeto.
+              Com especialidade em TypeScript, Node.js, React, e outras tecnologias modernas,
+              estou em constante evolução para entregar o melhor em cada projeto — 
+              unindo código limpo, design funcional e inovação.
               </p>
               <div className="d-flex flex-wrap gap-2">
                 <span className="tech-tag">Node.js</span>
@@ -34,6 +36,12 @@ const AboutSection: React.FC = () => {
               <div className="glass-card">
                 <h4 className="h4 fw-semibold project-title mb-4">Minhas Especialidades</h4>
                 <div>
+                <div className="mb-4">
+                    <h5 className="project-title fw-medium mb-2">Desenvolvimento Backend</h5>
+                    <p className="project-description small">
+                      APIs robustas e escaláveis com Node.js e bancos de dados modernos.
+                    </p>
+                  </div>
                   <div className="mb-4">
                     <h5 className="project-title fw-medium mb-2">Desenvolvimento Frontend</h5>
                     <p className="project-description small">
@@ -41,9 +49,9 @@ const AboutSection: React.FC = () => {
                     </p>
                   </div>
                   <div className="mb-4">
-                    <h5 className="project-title fw-medium mb-2">Desenvolvimento Backend</h5>
+                    <h5 className="project-title fw-medium mb-2">Banco de Dados</h5>
                     <p className="project-description small">
-                      APIs robustas e escaláveis com Node.js e bancos de dados modernos.
+                      Bancos de dados modernos como MySQL e MongoDB.
                     </p>
                   </div>
                   <div>

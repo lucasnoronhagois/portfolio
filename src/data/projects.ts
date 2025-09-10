@@ -32,7 +32,7 @@ export const projects: Project[] = [
     description: "Sistema desenvolvido para consulta de eventos de um determinado jogo online ",
     githubLink: "https://github.com/lucasnoronhagois/box-calendar",
     liveLink: "https://box-calendar-two.vercel.app/",
-    tags: ["JavaScript", "HTML", "CSS", "Charts.js"]
+    tags: ["TypeScript", "HTML", "CSS", "Bootstrap", "React"]
   },
   {
     id: 3,
@@ -44,6 +44,6 @@ export const projects: Project[] = [
     description: "Sistema desenvolvido para simulação de quantas tentativas seriam necessárias para um determinado evento ocorrer",
     githubLink: "https://github.com/lucasnoronhagois/how-many-tries",
     liveLink: "https://how-many-tries.vercel.app/",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"]
+    tags: ["TypeScript", "HTML", "CSS", "Bootstrap", "React"]
   }
 ];
