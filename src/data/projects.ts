@@ -45,5 +45,17 @@ export const projects: Project[] = [
     githubLink: "https://github.com/lucasnoronhagois/how-many-tries",
     liveLink: "https://how-many-tries.vercel.app/",
     tags: ["TypeScript", "HTML", "CSS", "Bootstrap", "React"]
+  },
+  {
+    id: 4,
+    title: "Timer Alert",
+    images: [
+      "/timer1.png",
+      "/timer2.png",      
+    ],
+    description: "Timer com alerta sonoro. O usuário pode definir o tempo de duração do timer e o volume, o alerta sonoro será ativado quando o timer chegar ao fim.",
+    githubLink: "https://github.com/lucasnoronhagois/boss-timer",
+    liveLink: "https://boss-timer-gamma.vercel.app/",
+    tags: ["TypeScript", "HTML", "CSS", "Bootstrap", "React"]
   }
 ];
