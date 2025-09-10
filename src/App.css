@@ -276,3 +276,104 @@ html {
   padding: 0 !important;
   background-color: #161513 !important;
 }
+
+/* Media Queries para Mobile */
+@media (max-width: 768px) {
+  /* Ajustes para títulos em mobile */
+  .display-4 {
+    font-size: 2rem !important;
+  }
+  
+  .display-5 {
+    font-size: 1.75rem !important;
+  }
+  
+  /* Padding reduzido em mobile */
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  /* Navbar mobile */
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Botões de projeto em mobile */
+  .project-overlay-btn {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  
+  /* Cards de projeto em mobile */
+  .project-card {
+    margin-bottom: 1rem;
+  }
+  
+  /* Scroll to top button em mobile */
+  .scroll-to-top-btn {
+    bottom: 20px !important;
+    right: 20px !important;
+    width: 45px !important;
+    height: 45px !important;
+  }
+  
+  /* Glass card padding em mobile */
+  .glass-card {
+    padding: 20px !important;
+  }
+  
+  /* Tags de tecnologia em mobile */
+  .tech-tag {
+    font-size: 0.75rem !important;
+    padding: 3px 8px !important;
+  }
+  
+  /* Project tags em mobile */
+  .project-tag {
+    font-size: 0.7rem !important;
+    padding: 3px 6px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Ajustes para telas muito pequenas */
+  .display-4 {
+    font-size: 1.75rem !important;
+  }
+  
+  .display-5 {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Container ainda mais compacto */
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  /* Navbar muito pequena */
+  .navbar-brand {
+    font-size: 1.25rem !important;
+  }
+  
+  /* Botões de navegação em mobile */
+  .nav-button {
+    padding: 6px 12px !important;
+    font-size: 0.9rem !important;
+  }
+  
+  /* Glass card ainda mais compacto */
+  .glass-card {
+    padding: 15px !important;
+  }
+  
+  /* Imagens de projeto em mobile */
+  .project-image {
+    height: 180px !important;
+  }
+  
+  .carousel-images {
+    height: 180px !important;
+  }
+}
