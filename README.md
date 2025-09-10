@@ -1,69 +1,94 @@
-# React + TypeScript + Vite
+# Portfolio - Lucas Noronha
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio pessoal desenvolvido com React, TypeScript e Bootstrap, apresentando projetos e habilidades de desenvolvimento.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - Biblioteca para interfaces de usuário
+- **TypeScript** - Superset do JavaScript com tipagem estática
+- **Vite** - Build tool e servidor de desenvolvimento
+- **Bootstrap** - Framework CSS para design responsivo
+- **CSS3** - Estilos customizados e animações
 
-## Expanding the ESLint configuration
+## 📁 Estrutura do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/          # Componentes reutilizáveis
+│   ├── Navbar.tsx      # Barra de navegação
+│   ├── ScrollToTop.tsx # Botão de voltar ao topo
+│   └── ImageCarousel.tsx # Carrossel de imagens
+├── sections/           # Seções da página
+│   ├── HomeSection.tsx
+│   ├── AboutSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── ContactSection.tsx
+│   └── index.ts        # Exportações centralizadas
+├── data/              # Dados dos projetos
+│   └── projects.ts
+├── App.tsx            # Componente principal
+├── App.css            # Estilos customizados
+└── index.css          # Estilos globais
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Como Executar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Pré-requisitos
+- Node.js (versão 18 ou superior)
+- npm ou yarn
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/lucasnoronhagois/portfolio.git
+
+# Entre na pasta do projeto
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
 ```
+
+### Scripts Disponíveis
+```bash
+npm run dev      # Servidor de desenvolvimento
+npm run build    # Build para produção
+npm run preview  # Preview do build
+npm run lint     # Verificação de código
+```
+
+## 🌐 Deploy
+
+O projeto está configurado para deploy no Vercel:
+
+1. Conecte o repositório GitHub ao Vercel
+2. Configure as variáveis de ambiente (se necessário)
+3. Deploy automático a cada push na branch main
+
+## 📱 Funcionalidades
+
+- **Design Responsivo** - Adaptável a diferentes tamanhos de tela
+- **Navegação Suave** - Scroll suave entre seções
+- **Carrossel de Imagens** - Apresentação dinâmica dos projetos
+- **Botão Scroll to Top** - Retorno rápido ao topo da página
+- **Links Externos** - Acesso direto aos projetos e repositórios
+
+## 🎨 Seções
+
+- **Home** - Apresentação inicial
+- **Sobre** - Informações pessoais e habilidades
+- **Projetos** - Portfolio de trabalhos realizados
+- **Contato** - Informações de contato e redes sociais
+
+## 📧 Contato
+
+- **Email**: lucas.noronha.gois@gmail.com
+- **LinkedIn**: [Lucas Noronha](https://www.linkedin.com/in/lucasnoronhagois)
+- **GitHub**: [lucasnoronhagois](https://github.com/lucasnoronhagois)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
